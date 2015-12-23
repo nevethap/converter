@@ -1,5 +1,5 @@
 module.exports = {
     convertCtoF : function (celsius) {
-    return 0.0;
+    return Math.round(celsius * 9 / 5) + 32 ;
     }
 };

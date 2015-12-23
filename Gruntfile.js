@@ -2,12 +2,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint : {
-            options: {
+            files : ['Gruntfile.js', 'src/app/*.js'],
+            options : {
                 reporter: require('jshint-stylish')
-            },
-            build: {
-                src : 'src/app/celsiusToFahrenheit.js',
-                dest : 'build/app/min.js'
             }
     },
     execute : {

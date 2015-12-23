@@ -10,4 +10,9 @@ var expect = require('chai').expect,
       	it('should return 104 when passed the param (40)', function () {
       		expect(app.convertCtoF(40)).to.equal(104);
       	});
-      });
+    });
+    describe('convertFtoC', function () {
+      	it('should return -40 when passed the param (-40)', function () {
+        		expect(app.convertCtoF(-40)).to.equal(-40);
+      	});
+    });

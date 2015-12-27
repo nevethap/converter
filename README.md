@@ -1,10 +1,10 @@
-## Temperature converter
+# Temperature converter
 
-# Description
+### Description
 
 A simple nodejs project configured with grunt task runner to execute tests using mocha.
 
-# How to run
+### How to run
 
 * Install node js
 

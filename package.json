@@ -9,6 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",
+    "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-execute": "^0.2.2",
     "grunt-mocha-test": "^0.12.7",
@@ -16,7 +17,7 @@
     "mocha": "^2.3.4"
   },
   "scripts": {
-    "test": "mocha"
+    "grunt-setup": "npm install -g grunt-cli && npm install grunt --save-dev"
   },
   "repository": {
     "type": "git",

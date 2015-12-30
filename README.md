@@ -11,18 +11,13 @@ A simple nodejs project configured with grunt task runner to execute tests using
     "sudo apt-get install node (linux)"
     "brew install node (mac OSX homebrew)"
 
-* Install node.js package manager
+* Install node.js package manager (brew automatically installs npm along with node)
 
     "sudo apt-get install npm (linux)"
-    "brew install npm (mac OSX homebrew)"
 
 * Install grunt command line interface
 
-    "npm install -g grunt-cli"
-
-* Install grunt
-
-    "npm install grunt --save-dev"
+    "npm run grunt-setup"
 
 * Run grunt tasks from the project directory
 

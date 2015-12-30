@@ -20,6 +20,14 @@ A simple nodejs project configured with grunt task runner to execute tests using
 
     "npm install -g grunt-cli"
 
+* Install grunt
+
+    "npm install grunt --save-dev"
+
+* Install chai
+
+    "npm install chai"
+
 * Run grunt tasks from the project directory
 
     "grunt"
